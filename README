@@ -1,0 +1,16 @@
+Important Please pay attention!
+
+In order to run this code file, please provide all the details in the config.py file
+
+First, clone the github repo on the target server and change config.py file
+
+Run the following things on the target website servers
+sudo apt-get update
+sudo apt-get install python3 python3-pip
+git clone <github-link>
+sudo pip3 install flask pymysql boto3
+sudo python3 app.py
+
+Routes on the website:
+/ is the main website
+/check will give kubernetes cluster status

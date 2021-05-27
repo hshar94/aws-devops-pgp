@@ -1,0 +1,7 @@
+custombucket = "destinationtxt"
+table = "intellipaat"
+databasehost = "database-1.cyro8arsnhbc.us-east-2.rds.amazonaws.com"
+duser = "intel"
+dpass = "intel123"
+s3database = "intellipaat"
+kapp = "http://3.228.220.21/"
