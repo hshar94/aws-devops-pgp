@@ -14,3 +14,8 @@ sudo python3 app.py
 Routes on the website:
 / is the main website
 /check will give kubernetes cluster status
+
+
+For Kubernetes Cluster, use the dockerfile provided in the repo to create a container, deploy this container on kubnernetes on nodeport service, and specify ip and port in config.py file
+
+Thanks,
